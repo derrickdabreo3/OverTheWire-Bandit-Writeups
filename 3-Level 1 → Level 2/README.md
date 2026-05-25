@@ -2,7 +2,7 @@
 
 ## Goal
 
-Retrieve the password for Level 3 from the file named `--spaces in this filename--` located in the home directory.
+Retrieve the password for Level 3 from the file named `-` located in the home directory.
 
 ---
 
@@ -19,13 +19,13 @@ For SSH setup instructions, refer to the [PuTTY Setup Guide](../Setup/PuTTY-Setu
 ### Username
 
 ```text
-bandit2
+bandit1
 ```
 
 ### Password
 
 ```text
-263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 ```
 
 ---
@@ -38,28 +38,34 @@ bandit2
 ls -la
 ```
 
-### Command 2 — Read File Contents with Spaces in Filename
+Lists all files and directories, including hidden files, along with detailed file permissions and ownership information.
+
+### Command 2 — Read File Contents Using `cat`
 
 ```bash
-cat -- "--spaces in this filename--"
+cat ./-
 ```
+
+Displays the contents of the file named `-`.
 
 ---
 
 ## Explanation
 
-The `ls -la` command was used to identify the file named `--spaces in this filename--` in the home directory.
+The `ls -la` command was used to identify the file named `-` in the home directory.
 
-The `cat` command was used to display the contents of the file.
+The `cat ./-` command displayed the contents of the file named `-`.
 
-Double quotes were required because the filename contains spaces. The `./` prefix ensures the filename is treated as a local file path.
+The `./` prefix is required because the `-` character is normally interpreted as standard input/output by Linux commands.
+
+Using `./` forces Linux to treat `-` as a filename located in the current directory.
 
 ---
 
 ## Retrieved Password
 
 ```text
-MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 ```
 
 ---
@@ -70,7 +76,7 @@ MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 ![SSH Login](screenshots/1-level2-ssh-login.png)
 
-### Password Retrieval
+### Password Retrieval from `-`
 
 ![Password Retrieval](screenshots/2-level2-password-retrieval.png)
 
@@ -78,7 +84,7 @@ MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 ## Key Learning
 
-- Handling filenames containing spaces
-- Using quotation marks in Linux commands
-- Understanding shell argument parsing
-- Reading files with special filenames
+- Understanding special filenames in Linux
+- Reading files with special characters
+- Using relative paths
+- Understanding Linux command-line parsing behavior
