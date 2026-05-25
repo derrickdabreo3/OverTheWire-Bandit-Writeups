@@ -2,7 +2,7 @@
 
 ## Goal
 
-Retrieve the password for Level 2 from the file named `-` located in the home directory.
+Retrieve the password for Level 2 from the `readme` file located in the home directory.
 
 ---
 
@@ -19,13 +19,13 @@ For SSH setup instructions, refer to the [PuTTY Setup Guide](../Setup/PuTTY-Setu
 ### Username
 
 ```text
-bandit1
+bandit0
 ```
 
 ### Password
 
 ```text
-ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+bandit0
 ```
 
 ---
@@ -38,28 +38,30 @@ ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 ls -la
 ```
 
+Lists all files and directories, including hidden files, along with detailed file permissions and ownership information.
+
 ### Command 2 — Read File Contents Using `cat`
 
 ```bash
-cat ./-
+cat readme
 ```
+
+Displays the contents of the `readme` file.
 
 ---
 
 ## Explanation
 
-The `ls -la` command was used to identify the file named `-` in the home directory.
+The `ls -la` command was used to identify the `readme` file in the home directory.
 
-The `cat ./-` command was used to read the contents of the file named `-`.
-
-The `./` prefix is required because the `-` character is normally interpreted as standard input/output by Linux commands.
+The `cat readme` command displayed the contents of the `readme` file, which contained the password required to access Level 2.
 
 ---
 
 ## Retrieved Password
 
 ```text
-263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 ```
 
 ---
@@ -70,7 +72,7 @@ The `./` prefix is required because the `-` character is normally interpreted as
 
 ![SSH Login](screenshots/1-level1-ssh-login.png)
 
-### Password Retrieval from `-`
+### Password Retrieval from `readme`
 
 ![Password Retrieval](screenshots/2-level1-password-retrieval.png)
 
@@ -78,7 +80,7 @@ The `./` prefix is required because the `-` character is normally interpreted as
 
 ## Key Learning
 
-- Understanding special filenames in Linux
-- Reading files with special characters
-- Using relative paths
-- Handling command-line parsing behavior
+- Using SSH credentials to access remote systems
+- Listing files in Linux using `ls -la`
+- Reading file contents using `cat`
+- Understanding Linux file permissions and directory listings
