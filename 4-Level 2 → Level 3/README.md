@@ -76,11 +76,11 @@ MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 ### SSH Login
 
-![SSH Login](screenshots/1-level3-ssh-login.png)
+![SSH Login](Screenshots/1-level3-ssh-login.png)
 
 ### Password Retrieval from Filename Containing Spaces
 
-![Password Retrieval](screenshots/2-level3-password-retrieval.png)
+![Password Retrieval](Screenshots/2-level3-password-retrieval.png)
 
 ---
 
