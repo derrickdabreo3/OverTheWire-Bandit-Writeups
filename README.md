@@ -1,7 +1,5 @@
 # OverTheWire-Bandit-Writeups
 
-# OverTheWire Bandit Writeups
-
 This repository contains my personal walkthroughs, notes, commands, and screenshots for the Bandit wargame from OverTheWire.
 
 ## About
