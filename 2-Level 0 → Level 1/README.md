@@ -68,13 +68,9 @@ ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 ## Screenshots
 
-### SSH Login
-
-![SSH Login](screenshots/1-level1-ssh-login.png)
-
 ### Password Retrieval from `readme`
 
-![Password Retrieval](screenshots/2-level1-password-retrieval.png)
+![Password Retrieval](screenshots/1-level1-password-retrieval.png)
 
 ---
 
