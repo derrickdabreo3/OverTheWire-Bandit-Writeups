@@ -90,15 +90,15 @@ Password: bandit0
 
 ### PuTTY Configuration
 
-![PuTTY Configuration](screenshots/putty-config.png)
+![PuTTY Configuration](screenshots/1-putty-config.png)
 
-### Saved Session
+### Load Saved Session
 
-![Saved Session](screenshots/session-save.png)
+![Load Session](screenshots/2-load-session.png)
 
 ### Login Screen
 
-![Login Screen](screenshots/login-screen.png)
+![Login Screen](screenshots/3-login-screen.png)
 
 ---
 
