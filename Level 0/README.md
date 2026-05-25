@@ -66,11 +66,11 @@ ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 ### SSH Login
 
-![SSH Login](screenshots/level0-ssh-login.png)
+![SSH Login](screenshots/1-level0-ssh-login.png)
 
 ### Password Retrieval
 
-![Password Retrieval](screenshots/level0-password-retrieval.png)
+![Password Retrieval](screenshots/2-level0-password-retrieval.png)
 
 ---
 
