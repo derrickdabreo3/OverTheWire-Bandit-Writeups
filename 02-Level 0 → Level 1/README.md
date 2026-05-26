@@ -70,7 +70,7 @@ ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 ### Password Retrieval from `readme`
 
-![Password Retrieval](screenshots/1-level1-password-retrieval.png)
+![Password Retrieval](Screenshots/1-level1-password-retrieval.png)
 
 ---
 
