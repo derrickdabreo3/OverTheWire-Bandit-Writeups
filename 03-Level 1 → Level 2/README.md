@@ -74,11 +74,11 @@ Using `./` forces Linux to treat `-` as a filename located in the current direct
 
 ### SSH Login
 
-![SSH Login](screenshots/1-level2-ssh-login.png)
+![SSH Login](Screenshots/1-level2-ssh-login.png)
 
 ### Password Retrieval from `-`
 
-![Password Retrieval](screenshots/2-level2-password-retrieval.png)
+![Password Retrieval](Screenshots/2-level2-password-retrieval.png)
 
 ---
 
