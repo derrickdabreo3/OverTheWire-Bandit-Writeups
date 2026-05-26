@@ -34,7 +34,7 @@ bandit0
 
 ### SSH Login
 
-![SSH Login](screenshots/1-level0-ssh-login.png)
+![SSH Login](Screenshots/1-level0-ssh-login.png)
 
 ---
 
